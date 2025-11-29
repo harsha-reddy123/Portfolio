@@ -1,14 +1,15 @@
+/* Default (light) theme variables */
 :root {
-  /*    Colors    */
-  --primary-color: rgba(231, 76, 60, 1); /* #e74c3c - Red */
-  --secondary-color: rgba(22, 160, 133, 1); /* #16a085 - Teal */
-  --accent-color: rgba(241, 196, 15, 1); /* #f1c40f - Yellow */
+  /* Colors */
+  --primary-color: rgba(231, 76, 60, 1); /* #e74c3c */
+  --secondary-color: rgba(22, 160, 133, 1); /* #16a085 */
+  --accent-color: rgba(241, 196, 15, 1); /* #f1c40f */
 
-  /*    Text Colors    */
+  /* Text colors */
   --text-primary: rgba(26, 26, 26, 1);
   --text-secondary: rgba(0, 0, 0, 0.7);
 
-  /*    Background Colors    */
+  /* Background colors */
   --bg-primary: rgba(248, 249, 250, 1);
   --bg-secondary: rgba(241, 241, 241, 1);
   --bg-card: rgba(255, 255, 255, 0.8);
@@ -20,69 +21,67 @@
   --bg-menu-mobile: rgba(248, 249, 250, 0.95);
   --bg-hover: rgba(230, 230, 230, 0.8);
 
-  /*    Borders & Shadows    */
+  /* Borders and shadows */
   --border-color: rgba(0, 0, 0, 0.1);
   --border-thin: 1px solid rgba(0, 0, 0, 0.08);
   --border-header: 1px solid rgba(0, 0, 0, 0.05);
   --border-hover: rgba(0, 0, 0, 0.15);
   --card-border: 1px solid rgba(0, 0, 0, 0.08);
-
   --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.06);
   --shadow-md: 0 5px 15px rgba(0, 0, 0, 0.08);
   --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.12);
   --shadow-glow: 0 0 15px rgba(231, 76, 60, 0.2);
 
-  /*    Overlays & Gradients    */
+  /* Overlays and gradients */
   --overlay-light: rgba(0, 0, 0, 0.03);
   --overlay-primary: rgba(231, 76, 60, 0.1);
   --overlay-secondary: rgba(22, 160, 133, 0.1);
   --overlay-accent: rgba(241, 196, 15, 0.1);
-
   --primary-gradient: linear-gradient(
     90deg,
     rgba(231, 76, 60, 1),
     rgba(243, 156, 18, 1)
   );
 
-  /*    Border Radius    */
+  /* Border radius */
   --radius-sm: 6px;
   --radius-md: 12px;
   --radius-lg: 20px;
   --radius-full: 9999px;
 
-  /*    Transitions    */
+  /* Animation */
   --transition-fast: all 0.2s ease;
   --transition-normal: all 0.3s ease;
   --transition-slow: all 0.5s ease;
 
-  /*    Spacing    */
+  /* Spacing */
   --space-0: 0;
-  --space-1: 0.25rem; /* 4px */
-  --space-2: 0.5rem; /* 8px */
-  --space-3: 1rem; /* 16px */
-  --space-4: 1.5rem; /* 24px */
-  --space-5: 2rem; /* 32px */
-  --space-6: 3rem; /* 48px */
-  --space-7: 5rem; /* 80px */
-  --space-8: 8rem; /* 128px */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 1rem;
+  --space-4: 1.5rem;
+  --space-5: 2rem;
+  --space-6: 3rem;
+  --space-7: 5rem;
+  --space-8: 8rem;
 
-  /*    Layout Sizing    */
+  /* Sizing */
   --content-width: 1200px;
   --header-height: 70px;
 
-  /*    Font Sizes    */
-  --font-xs: 0.75rem; /* 12px */
-  --font-sm: 0.875rem; /* 14px */
-  --font-base: 1rem; /* 16px */
-  --font-md: 1.125rem; /* 18px */
-  --font-lg: 1.25rem; /* 20px */
-  --font-xl: 1.5rem; /* 24px */
-  --font-2xl: 1.875rem; /* 30px */
-  --font-3xl: 2.25rem; /* 36px */
-  --font-4xl: 3rem; /* 48px */
-  --font-5xl: 3.75rem; /* 60px */
+  /* Font sizes */
+  --font-xs: 0.75rem;
+  --font-sm: 0.875rem;
+  --font-base: 1rem;
+  --font-md: 1.125rem;
+  --font-lg: 1.25rem;
+  --font-xl: 1.5rem;
+  --font-2xl: 1.875rem;
+  --font-3xl: 2.25rem;
+  --font-4xl: 3rem;
+  --font-5xl: 3.75rem;
 
-  /*    Font Weights    */
+  /* Font weights */
   --fw-light: 300;
   --fw-regular: 400;
   --fw-medium: 500;
@@ -90,7 +89,7 @@
   --fw-bold: 700;
   --fw-extrabold: 800;
 
-  /*    Line Heights    */
+  /* Line heights */
   --lh-none: 1;
   --lh-tight: 1.25;
   --lh-snug: 1.375;
@@ -99,20 +98,18 @@
   --lh-loose: 2;
 }
 
-/*     ====
-   Dark Theme Variables
-       ==== */
+/* Dark theme variables */
 [data-theme="dark"] {
-  /*    Colors    */
+  /* Colors */
   --primary-color: rgba(255, 111, 97, 1);
   --secondary-color: rgba(26, 188, 156, 1);
   --accent-color: rgba(243, 156, 18, 1);
 
-  /*    Text Colors    */
+  /* Text colors */
   --text-primary: rgba(245, 245, 245, 1);
   --text-secondary: rgba(255, 255, 255, 0.7);
 
-  /*    Background Colors    */
+  /* Background colors */
   --bg-primary: rgba(18, 18, 18, 1);
   --bg-secondary: rgba(30, 30, 30, 1);
   --bg-card: rgba(30, 30, 30, 0.7);
@@ -124,24 +121,22 @@
   --bg-menu-mobile: rgba(18, 18, 18, 0.95);
   --bg-hover: rgba(40, 40, 40, 0.8);
 
-  /*    Borders & Shadows    */
+  /* Borders and shadows */
   --border-color: rgba(255, 255, 255, 0.1);
   --border-thin: 1px solid rgba(255, 255, 255, 0.08);
   --border-header: 1px solid rgba(255, 255, 255, 0.05);
   --border-hover: rgba(255, 255, 255, 0.15);
   --card-border: 1px solid rgba(255, 255, 255, 0.08);
-
   --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.2);
   --shadow-md: 0 5px 15px rgba(0, 0, 0, 0.3);
   --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.5);
   --shadow-glow: 0 0 15px rgba(255, 111, 97, 0.3);
 
-  /*    Overlays & Gradients    */
+  /* Overlays */
   --overlay-light: rgba(255, 255, 255, 0.05);
   --overlay-primary: rgba(255, 111, 97, 0.15);
   --overlay-secondary: rgba(26, 188, 156, 0.15);
   --overlay-accent: rgba(243, 156, 18, 0.15);
-
   --primary-gradient: linear-gradient(
     90deg,
     rgba(255, 111, 97, 1),
@@ -149,14 +144,13 @@
   );
 }
 
-/*making responsive header height*/
+/* Responsive adjustments */
 @media (min-width: 768px) {
   :root {
     --header-height: 80px;
   }
 }
 
-/* Desktop */
 @media (min-width: 1024px) {
   :root {
     --header-height: 90px;
